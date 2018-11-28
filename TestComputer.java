@@ -29,6 +29,7 @@ public class TestComputer {
 		System.out.println("myCom2 no of drive is  " + mycom2.getNoDrive());
 		mycom2.setNoDrive(2);
 		System.out.println("myCom2 new no of drive is  " + mycom2.getNoDrive());
+		System.out.println("Computer price for less than 6 GB RAM is " + Computer.getPrice(5)+ " USD");
 		
 			
 				

@@ -10,8 +10,8 @@ package computer;
 public class Computer {
 	String comName;
 	String osName; 
-     int ram;
-     static int quantity;
+    int ram;
+    static int quantity;
 	
 	private Computer()
 	{
@@ -34,7 +34,14 @@ public class Computer {
 	}
 	
 	
-	
+	public static int getPrice(int ram)
+	{
+		int price;
+		if (ram < 6)
+			return price = 500;
+		else 
+			return price = 800;
+	}
 	
 
 }
